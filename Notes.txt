@@ -1,0 +1,16 @@
+.dropna() - won't be dropping, just to checks columns data.
+Instead of dropping we do imputation i.e. replacing
+Doing imputation is purely contextual.
+For categorial data, we do imputation by replacing with mode.
+When there are outliers in the data, mean imputation is not suggestible, instead we do median imputation
+What is the maximun % of data that we can have as outliers? - ANS: CLose to 50%
+
+Multinomial regression:
+
+
+
+
+TODO:
+require in R??
+require function is similar to library() function.
+The require() is designed to be used inside functions as it gives a warning message and returns a logical value say, FALSE if the requested package is not found and TRUE if the package is loaded.
