@@ -1,16 +1,24 @@
-.dropna() - won't be dropping, just to checks columns data.
-Instead of dropping we do imputation i.e. replacing
-Doing imputation is purely contextual.
-For categorial data, we do imputation by replacing with mode.
-When there are outliers in the data, mean imputation is not suggestible, instead we do median imputation
-What is the maximun % of data that we can have as outliers? - ANS: CLose to 50%
+Ordinal regression is much like multinomial regression in order.
+Thumb rule: Train accuracy must be more than test accuracy.
+Overfitting  - The difference between train and test accuracy is greater than 5%
+Underfitting -  Both train and test accuracy is less, it's underfitting
+Rightfit     - The difference between train and test accuracy is less than 5%
+Analogy: Take umberella analogy
+solver="newton-cg" - is standard backend kind of algorithm just like makimum likelihood
 
-Multinomial regression:
+Advanced regression:
+Possion distribution is extenstion of negative binomial distribution
+space = length, area and volume
+Poisson distribution range is from zero to infinity
+
+
+
 
 
 
 
 TODO:
-require in R??
-require function is similar to library() function.
-The require() is designed to be used inside functions as it gives a warning message and returns a logical value say, FALSE if the requested package is not found and TRUE if the package is loaded.
+Binomial, negative binomial and poisson distributions
+Multionomial class - 23/03/20
+Practice python logistic regression and do sir's assignment.
+von borketwitsh - example
